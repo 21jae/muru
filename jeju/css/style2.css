@@ -1,0 +1,653 @@
+/* @import url('//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css); */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.iropke{
+    font-family: 'iropke batang',Arial, Helvetica, sans-serif;
+}
+
+.noto{
+    font-family: 'Notosanskr',Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .bar_icon{
+    font-size: 25px;
+    display: none;
+}
+
+header .call_icon{
+    margin-right: 5px;
+}
+
+header .nav-menu ul{
+    display: flex;
+     
+}
+
+
+header .nav-menu ul li{
+    margin: 30px 24px; 
+}
+
+header .nav-menu ul li a{
+    font-size: 1em;
+    font-family: 'iropke batang' ;
+    font-weight: 600;
+}
+
+header .call-menu ul{
+    display: flex;
+}
+
+
+header .call-menu ul li{
+    font-size: 0.875em;
+    font-family: 'Notosanskr';
+    
+    
+}
+
+header .call-menu h4{
+    margin-top: 3px;
+    font-size: 27px;
+    font-family: 'Notosanskr';
+    font-weight: 600;
+}
+
+
+.banner{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.banner img{
+    width: 100%;
+}
+
+
+
+section .banner_text{
+    margin-top: 14.375em;
+    margin-left: 14.375em;
+    position:absolute;  
+}
+
+section .banner_text h2{
+    font-size: 43px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: normal;
+    
+}
+
+section .banner_text p{
+    font-size: 15px;
+    color: white;
+    font-weight: 200;
+}
+ 
+
+
+/* content1 */
+
+
+
+.content{
+    width: 70%;
+    margin: 3.75em auto; 
+    position: relative;
+}
+
+.content .menu_text::after{
+    content: "";
+    width: 100%;
+    height: 1100px;
+    z-index: -99;
+    background: url('../images/bg01.png') no-repeat;
+    position: absolute;
+    top: -86%;
+    right: -48%;
+}
+
+.content h3{
+    text-align: center;
+    font-size: 26px;
+    font-family: 'iropke batang' ;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.content .menu_text{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.content .menu_text img{
+    width: 100%;
+}
+
+
+
+.content .menu_text h5{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 4px;
+    font-family: 'iropke batang' ;
+}
+
+.content .menu_text p{
+    font-size: 13px;
+    margin-bottom: 14px;
+    color: #999;
+}
+
+.content .menu_text .won{
+    font-size: 1em;
+    color: black;
+}
+
+
+.btn{
+   width: 150px;
+   padding: 20px 30px;
+   border: 1px solid black;
+    margin: 60px auto;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'iropke batang' ;
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+
+.btn .btn_button {
+    display: inline-block;
+}
+
+
+/* 2번 컨텐츠 */
+
+
+.content02{
+    width: 80%;
+    background: url(../images/Difference_bg.png) no-repeat center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.content02 .container{
+    padding:180px 80px;
+    
+}
+
+
+.content02::after{
+    content: "";
+    background: url('../images/bg02.png') no-repeat;
+    width: 100%;
+    height: 1200px;
+    z-index: -99;
+    position: absolute;
+    top: 45%;
+    left: -55%;
+    
+}
+
+
+.content02 .container h2{
+    padding-left: 35px;
+}
+
+.content02 .container ul{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.content02 .container ul li{
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    font-size: 15px;
+}
+
+
+
+.content02 .container ul li::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 70px;
+    background-color: black;
+    top: 32%;
+    right: 0;
+    
+    
+}
+
+
+.content02 .container ul li img{
+    margin-bottom: 10px;
+    
+}
+
+.content02 .container a{
+    border: 1px solid black;
+    padding: 20px 35px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'iropke batang' ;
+    margin-left: 30px;
+    
+}
+
+/* 3번 컨텐츠 */
+
+
+.content03{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.content03 .content_banner{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.content03 .content_banner::after{
+    content: "";
+    background: url('../images/bg03.png') no-repeat;
+    width: 700px;
+    height: 800px;
+    top: -30%;
+    right: -50%;
+    position: absolute;
+    z-index: -99;
+}
+
+
+.content03 .content_banner .bn01{
+    width: 100%;
+    
+    background: url('../images/Interior_img02.png') no-repeat center top;
+    margin-right: 2.5px;
+    
+}
+
+.content03 .content_banner .bn01 .slide{
+    width: 36%;
+    background-color: #917c64;
+    padding: 14px;
+    opacity: 0.9;
+}
+
+.content03 .content_banner .bn01 .slide img{
+    margin-bottom: 120px;
+}
+
+
+.content03 .content_banner .bn01 .slide p{
+    font-size: 13px;
+    font-weight: 200;
+    color: white;
+    
+    
+
+}
+
+.content03 .content_banner .bn01 .slide h6{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.content03 .content_banner .bn01 .slide ul{
+    display: flex;
+}
+
+.content03 .content_banner .bn01 .slide ul li:first-child{
+    opacity: 1;
+}
+
+.content03 .content_banner .bn01 .slide ul li{
+    background-color: white;
+    width: 7px;
+    height: 7px;
+    border-radius: 7px;
+    margin-right: 7px;
+    opacity: 0.4;
+}
+
+
+
+.content03 .content_banner .bn02{
+    width: 100%;
+    
+    background: url('../images/center_img.png') no-repeat
+    center top;
+    margin-left: 2.5px;
+    padding: 14px;
+    position: relative;
+}
+
+
+.content03 .content_banner .bn02::after{
+    content: "";
+    background: url(../images/bg04.png) no-repeat;
+    width: 1600px;
+    height: 1600px;
+    top: -90%;
+    right: -60%;
+    position: absolute;
+    z-index: -99;
+}
+
+
+.content03 .content_banner .bn02 .bn02_box{
+    padding: 108px;
+    
+    position: absolute;
+   
+}
+
+.content03 .content_banner .bn02 .bn02_box h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+.content03 .content_banner .bn02 .bn02_box p{
+    font-size: 14px;
+    color: #bbb;
+    margin-top: 9px;
+    text-align: center;
+}
+
+
+
+
+
+
+/* input 문의하기 */
+
+.input_form{
+    width: 70%;
+    margin: 70px auto;
+}
+
+.input_form .wrap_one h3{
+    text-align: center;
+    background: url("../image/h3_bg.png") no-repeat bottom;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.input_form .wrap_one form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.input_form .wrap_one form .question_form{
+    display:flex;
+    justify-content:space-between;
+}
+
+.input_form .wrap_one form .question_form .input_left{
+    width: 48%;
+}
+
+.input_form .wrap_one form .question_form .input_right{
+    width:48%;
+}
+
+.input_box span{
+    font-size: 15px;
+    font-weight: 600;
+    display:block;
+} 
+
+.input_box .input_box_size01{
+    width: 60%;
+}
+
+.input_box .input_box_size01 input{
+    width: 100%;
+    padding: 25px 10px;
+    box-sizing: border-box;
+}
+
+.input_box .input_box_size02{
+    width: 100%;
+}
+
+.input_box .input_box_size02 input{
+    width: 100%;
+    padding: 25px 10px;
+    box-sizing: border-box;
+}
+
+.input_box .input_box_call{
+    width: 100%;
+    display:flex;
+    align-items: center;
+}
+
+.input_box .input_box_call input{
+    width: 30%;
+    padding: 25px 10px;
+    box-sizing: border-box;
+}
+
+.input_box .input_box_call span{
+    margin: 0 10px;
+}
+
+.input_form .wrap_one form .question_form .input_right .input_box_textarea textarea{
+    border:1px solid #ccc;
+    width:100%;
+    height:423px;
+    max-height: 423px;
+}
+
+
+
+/* .input_box_textarea textarea:focus{
+    outline:none;
+} */
+
+.btn_style01{
+    float:right;
+    padding: 10px 30px;
+    background-color:#fff;
+    cursor: pointer;
+    border: 1px solid #333;
+    margin-top: 20px;
+}
+
+.input_box{
+    padding-bottom: 20px;
+}
+
+.pd-0{
+    padding: 0;
+}
+
+
+
+@media(max-width:768px){
+    .nav-menu{
+        display: none;
+    }
+    .call-menu{
+        display: none;
+    }
+    header .bar_icon{
+        display: block;
+    }
+}
+
+
+
+@media(max-width:1024px){
+
+    /* header 영역 */
+
+
+   
+
+    header .nav-menu ul li a{
+        font-size: 14px;
+        font-family: 'iropke batang' ;
+        font-weight: 600;
+    }
+
+    header .call-menu h4{
+        font-size: 21px;
+    }
+
+    
+    /* banner 영역 */
+
+
+    section .banner_text{
+    margin-top: 7.375em;
+    margin-left: 6.375em;
+    position:absolute;  
+    }
+
+    .banner h2{
+        font-size: 43px;
+    }
+
+    .banner img{
+        width: 100%;
+    
+    }
+    
+    .banner .banner_text h2{
+        font-size: 34px;
+    }
+
+    .banner .banner_text p{
+        font-size: 12px;
+    }
+
+    /* content영역 */
+
+
+    .content{
+        width: 80%;
+    }
+
+
+    /* 버튼 */
+
+    .btn
+    
+
+
+    /* 두번째 content */
+
+
+    .content02{
+        width: 100%;
+    }
+
+    
+
+    .content02 .container{
+        padding: 180px 0;
+    }
+
+    .content02 .container h2{
+        padding-left: 20px;
+    }
+    
+
+    /* .content02 .container a{
+        padding-left: 20px;
+    } */
+
+    .content02 .container ul li{
+        padding: 25px;
+    }
+
+    .content02 .container ul li p{
+        font-size: 12px;
+    }
+
+
+
+    /* content03 */
+
+
+
+    .content03{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .content03 .content_banner .bn01 .slide{
+        width: 43%;
+        background-color: #917c64;
+        padding: 5px 20px;
+        opacity: 0.9;
+    }
+    
+    .content03 .content_banner .bn01 p{
+       font-size: 13px;
+       font-weight: 200;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media(max-width:1120px){
+    header .nav-menu ul li{
+        font-size: 10px;
+       
+    }
+
+    header .nav-menu ul li a{
+        color: violet;
+       
+    }
+}
+
+ */

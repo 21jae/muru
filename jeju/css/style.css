@@ -1,0 +1,501 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #000
+}
+
+li{
+    list-style: none;
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+hr {
+    border: 0.5px solid #d6d6d6;
+}
+
+/* header부분 */
+
+
+
+header{
+    width:95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+   
+}
+
+header .nav-menu ul{
+    display: flex; 
+
+}
+
+
+header .nav-menu .pad{
+    padding: 2px 0 0 30px;
+    
+}
+
+header .nav-menu ul li a{
+    color: #111;
+    font-weight: 500;
+    font-size: 1em;
+    font-family: 'NanumSquare', sans-serif;
+    
+    
+    
+}
+
+header .login ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+header .login ul li{
+    padding: 0 12px;
+    font-size: 14px;
+}
+
+header .login ul button {
+    font-size: 14px;
+    padding: 7px 12px;
+    background-color: #00aa91;
+    border-radius: 3px;
+    color: white;
+    border:none;
+}
+
+header .login ul li a{
+    font-size: 1em;
+    font-weight: 500;
+    font-family: 'NanumSquare', sans-serif;
+}
+
+
+header .login .color_text1{
+    color: #00aa91 !important;
+}
+
+
+
+/* 배너 부분 */
+
+
+.banner{
+    width: 100%;
+    height: 39.375em;
+    margin: 0 auto;
+    background: url('../images/bg_visual_24.jpg') no-repeat 50% 0;
+    margin-top: 35px;
+}
+
+
+.banner .button1{
+    margin-top: 30.3125em;
+    margin-left: 56.25em;
+    position: absolute;
+}
+
+.banner .button1 button{
+    background-color: #009eab;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    width: 7.75em;
+    height: 60px;
+    font-family: 'NanumSquare', sans-serif;
+    font-weight: 900;
+    font-size: 1em;
+}
+
+
+.notice .notice_menu{
+    display: flex;
+    margin: 0 auto;
+    width: 900px;
+ }
+ 
+ .notice .notice_menu h2{
+   font-size: 16px;
+   margin-top: 20px;
+   font-family: 'NanumSquare', sans-serif;
+   font-weight: 700;
+}
+
+.notice .notice_menu a{
+    font-size: 16px;
+    padding: 19px;
+    margin-left: 30px;
+    color: #666;
+    font-weight: 400;
+    font-family: 'NanumSquare', sans-serif;
+}
+
+
+/* 가운데 배너 */
+
+
+.center_banner{
+    width: 47%;
+    margin: 0 auto;
+}
+
+
+.center_banner h2{
+    text-align: center;
+    font-size: 32px;
+    color: #111111;
+    font-weight: 400;
+    letter-spacing: -.5px;
+    margin: 80px 0;
+    font-family: 'NanumSquare', sans-serif;
+}
+
+
+.center_banner .title01 ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.center_banner .title01 ul li{
+    font-family: 'NanumSquare', sans-serif;
+    text-align: center;
+}
+
+
+.center_banner .title01 ul li h3{
+    text-align: center;
+    color: #111;
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.center_banner .title01 ul li p{
+    font-size: 16px;
+    color: #666;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+
+/* 버튼 */
+
+.banner02{
+    text-align: center;
+    
+}
+
+.banner02 .button2{
+  margin: 70px 0 90px 0;
+}
+
+.button2 button{
+    background-color: #00aa91;
+    border-color: #00aa91;
+    border: none;
+    color: #ffffff;
+    height: 60px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+
+/* 배너03 신청 */
+
+
+.banner03{  
+    background: url('../images/bg_introduction.png') no-repeat;
+    height:720px;
+    border-bottom:1px solid #e9e9e9 ;
+}
+
+
+.banner03 .introduction h2{
+    font-size: 32px;
+    color: #111111;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: -.5px;
+    margin-top: 80px;
+    font-family: 'NanumSquare', sans-serif;
+}
+
+
+
+/* 배너4 주문 */
+
+
+.banner04{
+    width: 55%;
+    margin: 0 auto;
+}
+
+.banner04 .order ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top:  80px;
+    margin-bottom: 80px;
+}
+
+.banner04 .order ul li{
+    border: 1px solid #e9e9e9;
+    border-radius: 8px;
+    width: 600px;
+    height: 85px;
+    padding: 50px 35px;
+    margin: 0px 10px;
+}
+
+.banner04 .order ul li img{
+    float: right;
+    
+}
+
+
+.banner04 .order ul li h2{
+    font-size: 24px;
+    color: #111111;
+    font-weight: 700;
+    letter-spacing: -1px;
+    
+}
+
+.banner04 .order ul li p{
+    margin-top: 20px;
+    color: #999999;
+}
+
+
+
+/* 배너5 다운로드 */
+
+.banner05{
+    background: url('../images/bg_down.jpg') no-repeat 50%;
+    height: 630px;
+}
+
+
+.banner05 h2{
+    font-size: 32px;
+    color: #111111;     
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: -.5px;
+    padding: 85px 0 65px 0;
+    font-family: 'NanumSquare', sans-serif;
+}
+
+
+.banner05 .download{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.banner05 .download ul{
+    display: flex;
+    justify-content:space-between ;
+}
+
+.banner05 .button3{
+   
+    float: right;
+    width: 28%;
+    margin-top: 5%;
+    cursor: pointer;
+} 
+
+
+ 
+
+
+
+/* 풋터 */
+
+.banner06{
+    background: #111;
+    height: 235px;
+    
+    
+}
+.banner06 .conts_area{
+    
+width: 55%;
+margin: 0 auto;
+}
+
+
+.banner06 .conts_area .nav ul{
+    display: flex;
+    padding: 32px 0 20px 0; 
+}
+
+.banner06 .conts_area .nav ul li a{
+    color: white;
+    font-size: 14px;
+    margin-right: 40px;
+    font-family: 'NanumSquare', sans-serif;
+}
+
+.banner06 .conts_area .company ul li{
+    font-size: 14px;
+    color: #999999;
+    padding: 4px 0;
+    
+    font-family: 'NanumSquare', sans-serif;
+}
+
+
+.banner06 .conts_area .company ul li a{
+    font-size: 14px;
+    color: #999999;
+    
+    margin-left: 4px;
+    text-decoration: underline;
+    font-family: 'NanumSquare', sans-serif;
+}
+
+
+.banner06 .conts_area p{
+    margin-top: 24px;
+    font-size: 14px;
+    color: #666666;
+    font-family: 'NanumSquare', sans-serif;
+    font-weight: 400;
+}
+
+
+
+@media(max-width:1024px){
+     /* header 영역 */
+
+     header .nav-menu{
+         display: none;
+     }
+
+    header .login{
+        display: none;
+        
+    }
+
+    header{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    
+    header
+
+
+
+}
+
+
+@media(max-width:812px){
+    /* header 영역 */
+
+    header .nav-menu{
+        display: none;
+    }
+
+   header .login{
+       display: none;
+       
+   }
+
+   header .logo img{
+       padding-top:  25px;
+   }
+
+   header{
+       width: 60%;
+       margin: 0 auto; 
+   }
+
+   .banner{
+    background: url('../images/Untitled-1.png') no-repeat 10%;
+    width: 375px;
+    height: 208px;
+   }
+
+   
+   .notice .notice_menu h2{
+       display: none;
+      
+   }
+
+   .notice .notice_menu a{
+    font-size: 14px;
+    font-family: 'NanumSquare', sans-serif, !important;
+    font-weight: 400;
+    align-items: center;
+}
+
+    .center_banner{
+        display: none;
+    }
+
+    .banner02 .button2{
+        display: none;
+    }
+
+    .banner03{
+        
+        display: flex;
+
+    }
+
+
+    .banner03 .water1{
+        background: url('../images/20210701113543M.png') no-repeat;
+        width: 100px;
+        height: 200px;
+        margin: 20px 
+    }
+
+    .banner03 .water2{
+        background: url('../images/20210701114041M.png') no-repeat;
+        width: 100%;
+        height: 200px;
+        margin: 20px 
+    }
+
+    .banner03 .water3{
+        background: url('../images/20210701113811M.png') no-repeat;
+        width: 100px;
+        height: 200px;
+        margin: 20px 
+    }
+
+    .banner03 .introduction{
+        display: none;
+    }
+
+    .banner04{
+        display: none;
+    }
+    .banner05{
+        display: none;
+    }
+    .banner06{
+        display: none;
+    }
+
+
+
+
+
+font-family: 'NanumSquare', sans-serif;
